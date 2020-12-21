@@ -1,7 +1,7 @@
 /*!
 *    A target game that detracts one and prints the score every time we hit enter.
 *
-*    Compile with `gcc game.c -o game`.
+*    Compile with `gcc target.c -o game`.
 */
 #include <stdio.h>
 
