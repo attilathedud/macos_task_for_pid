@@ -37,9 +37,9 @@ You do not need to disable SIP to call task_for_pid. You also do not need to sig
 For the kernel to allow us to use `task_for_pid`, we need to give our application the `SecTaskAccess` permission. To do this, create a file called `Info.plist` with the following content:
 
 ```
-<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>  
-<!DOCTYPE plist PUBLIC \\\"-//Apple//DTD PLIST 1.0//EN\\\" \\\"http://www.apple.com/DTDs/PropertyList-1.0.dtd\\\">  
-<plist version=\\\"1.0\\\">  
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0">  
 <dict>  
     <key>SecTaskAccess</key>
     <array>
